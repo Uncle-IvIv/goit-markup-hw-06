@@ -66,10 +66,21 @@ body {
   color: #404bbf;
 }
 .container {
-  max-width: 1158px;
+  max-width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
-  padding: 0 15px;
+
   }
+   @media only screen and (min-width: 768px) {
+      .container {
+       max-width: 768px;
+     }
+   }
+   @media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1168px;
+  }
+}
 
 .main-styl {
   background-color: #2e2f42;
@@ -94,6 +105,7 @@ body {
   margin: 0 auto 48px;
   width: 600px;
 }
+
 .button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -296,11 +308,6 @@ ol {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-@media only screen and (max-width: 320px) {
-  .header-box {
-    width: 320px;
-  }
-}
 
 .header-container {
   color: #2e2f42;
