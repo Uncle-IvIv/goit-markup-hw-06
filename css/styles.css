@@ -157,6 +157,13 @@ font-family: var(--font-family);
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  display: none;
+}
+
+@media only screen and (min-width: 1158px) {
+  .str-icon {
+    display:contents;
+  }
 }
 
 .ht-styl {
@@ -171,7 +178,15 @@ font-family: var(--font-family);
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  width: 288px;
 }
+
+@media only screen and (min-width: 720px) {
+  .p-section-one {
+    
+  }
+}
+
 .container-our-tem {
   background-color: #f4f4fd;
 }
@@ -354,10 +369,21 @@ ol {
 .container-two {
   padding: 120px 0;
 }
+
+
 .ul-two {
   display: flex;
+  flex-direction: column;
   gap: 24px;
 }
+
+@media only screen and (min-width: 720px) {
+  .ul-two {
+    flex-direction: row;
+
+  }
+}
+
 .li-one-two {
   width: calc((100% - 72px) / 4);
 }
