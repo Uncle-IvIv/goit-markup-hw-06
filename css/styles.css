@@ -14,7 +14,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   padding: 24px 0;
-  margin-right: 76px;
+  margin-right: 16px;
 
 }
 .nav-punkt-st {
@@ -38,10 +38,10 @@ body {
 .nav-punkt-st:hover {
   color: #404bbf;
 }
-.nav-punkt-st:focus, .nav-punkt-st.current {
+.nav-punkt-st:focus, .nav-punkt-st {
   color: #404bbf;
 }
-.nav-punkt-st.current::after {
+.nav-punkt-st::after {
   content: '';
   width: 100%;
   position: absolute;
@@ -52,7 +52,7 @@ body {
   border-radius: 2px;
   box-sizing: border-box;
 }
-.nav-punkt-st.current {
+.nav-punkt-st {
   position: relative;
 }
 .adress-styl {
@@ -62,10 +62,11 @@ body {
 
 @media only screen and (min-width: 768px) {
   .adress-styl {
-  display: contents;
+  display: block;
+  flex-direction: column;
+
   font-style: normal;
-  margin-left: 16px;
-  }
+   }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -437,6 +438,7 @@ ol {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-right: 122px;
 }
 .ul-adress-box {
   display: flex;
