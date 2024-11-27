@@ -79,7 +79,8 @@ body {
    @media only screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -116,7 +117,7 @@ font-family: var(--font-family);
   }
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 720px) {
   .hg-styl {
     margin: 0 auto 48px;
   }
@@ -183,7 +184,8 @@ font-family: var(--font-family);
 
 @media only screen and (min-width: 720px) {
   .p-section-one {
-    
+    display: block;
+
   }
 }
 
@@ -377,16 +379,29 @@ ol {
   gap: 24px;
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .ul-two {
-    flex-direction: row;
-
+   flex-wrap: wrap;
+   flex-direction: row; 
   }
 }
 
 .li-one-two {
   width: calc((100% - 72px) / 4);
 }
+
+@media only screen and (min-width: 768px) {
+  .li-one-two {
+    width: calc((100% - 72px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .li-one-two {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
