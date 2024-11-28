@@ -57,7 +57,6 @@ body {
 }
 .adress-styl {
   display: none;
-  /* */
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,7 +76,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .adress-email {
-    
+    margin-left: 122px;
   }
 }
 
@@ -101,37 +100,42 @@ body {
 }
 
 .adress-email {
-  
-  /* display: block;
-  padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   white-space: nowrap;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 332px;  */
-}
+  margin-left: 0;
+  }
 .adress-email:hover {
   color: #404bbf;
 }
 .adress-email:focus {
   color: #404bbf;
 }
+
 .adress-tel {
-    display: block;
-    padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     white-space: nowrap;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 40px;
-}
-.container {
-  max-width: 320px;
-  padding: 0 16px;
-  margin: 0 auto;
+    margin: 0;
+  }
 
+@media only screen and (min-width: 1158px) {
+  .adress-tel {
+    margin-left: 40px;
+ 
+  }
+}
+
+.container {
+    max-width: 320px;
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-left: auto;
+      margin-right: auto;
   }
    @media only screen and (min-width: 768px) {
       .container {
@@ -442,9 +446,24 @@ ol {
 }
 .ul-adress-box {
   display: flex;
-  gap: 40px;
   align-items: center;
 }
+
+
+@media only screen and (min-width: 768px) {
+  .ul-adress-box {
+    flex-direction: column;
+    margin: auto; 
+   }
+}
+
+@media only screen and (min-width: 1168px) {
+  .ul-adress-box {
+    flex-direction: row;
+  }
+}
+
+
 .container-two {
   padding: 120px 0;
 }
