@@ -188,13 +188,13 @@ margin: 0 auto;
   }
 .nav-punkt-st {
     display: block;
-    padding: 24px o;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-punkt-st.current {
     position: relative;
@@ -332,7 +332,7 @@ margin: 0 auto;
     text-align: center;
     color: #ffffff;
     margin: 52px auto 72px;
-    padding: auto 52px;
+    padding: 52px;
     width: 216px;
     height: 160px;
 
@@ -343,7 +343,7 @@ margin: 0 auto;
         font-size: 56px;
         line-height: 107%;
         margin: 0 auto 36px;
-        padding: 136px o;;
+        padding: 136px 0;;
         width: 496px;
     }
 }
@@ -351,7 +351,7 @@ margin: 0 auto;
 @media only screen and (min-width: 1158px) {
     .hg-styl {
         margin: 0 auto 48px;
-        padding: auto 472px;
+        padding: 472px;
          }
 }
 
