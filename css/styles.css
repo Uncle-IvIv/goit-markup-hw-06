@@ -616,6 +616,12 @@ margin: 0 auto;
     
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    margin-left: 0;
+  }
+}
+
 .p-section-two {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -626,13 +632,18 @@ margin: 0 auto;
 .con-foot-end {
     display: flex;
     flex-direction: column;
-    
+       
 }
 
-.container-footer {
-    margin-right: 120px;
-
+@media only screen and (min-width: 768px) {
+  .con-foot-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 768px;
+  }
 }
+
 
 .social-media-div {
     width: 208px;
@@ -641,7 +652,7 @@ margin: 0 auto;
     flex-direction: column;
     margin-left: 45px;
     margin-bottom: 72px;
-    
+
 }
 
 .p-soc-media {
@@ -653,9 +664,15 @@ margin: 0 auto;
     margin-bottom: 16px;
     width: 96px;
     height: 24px;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+@media only screen and (min-width: 768px) {
+  .p-soc-media {
+    margin-left: 0;
+  }
 }
 
 .media-link {
@@ -697,6 +714,8 @@ margin-right: auto;
     flex-direction: column;
 }
 
+
+
 .footer-subscribe-form-button {
     width: 165px;
     height: 40px;
@@ -716,6 +735,12 @@ margin-right: auto;
     margin-left: 60px;
     margin-top: 16px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-subscribe-form-button {
+  margin-top: 0;
+  margin-left: 42px;
+  }
+}
 
 .footer-subscribe-p {
     margin-bottom: 16px;
@@ -728,6 +753,12 @@ margin-right: auto;
     margin-right: auto;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-subscribe-p {
+    margin-left: 0;
+  }
+}
+
 .footer-subscribe-form-button-svg {
     margin-left: 16px;
 }
@@ -737,7 +768,7 @@ margin-right: auto;
     gap: 24px;
 }
 
-.footer-subscribe-form-l-in {
+.footer-subscribe-form-l {
     width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -756,6 +787,13 @@ margin-right: auto;
     flex-direction: column
     
 }
+
+@media only screen and (min-width: 768px) {
+  .footer-em-button {
+    flex-direction: row;
+  }
+}
+
 
 .modal {
     display: none;
