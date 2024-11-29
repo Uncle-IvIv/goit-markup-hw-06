@@ -466,6 +466,7 @@ margin: 0 auto;
   }
 
 
+
 .span-footer {
     color: #f4f4fd;
 }
@@ -644,6 +645,11 @@ margin: 0 auto;
   }
 }
 
+@media only screen and (min-width: 1168px) {
+  .con-foot-end {
+    width: 1168px;
+  }
+}
 
 .social-media-div {
     width: 208px;
@@ -714,7 +720,11 @@ margin: 0 auto;
     flex-direction: column;
 }
 
-
+@media only screen and (min-width: 1168px) {
+  .footer-subscribe {
+    margin-left: 80px;
+  }
+}
 
 .footer-subscribe-form-button {
     width: 165px;
