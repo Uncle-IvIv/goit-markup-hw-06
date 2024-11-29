@@ -463,8 +463,6 @@ margin: 0 auto;
 .footer-end {
     background-color: #2e2f42;
     padding: 100px 0;
-
- 
   }
 
 
@@ -643,6 +641,7 @@ margin: 0 auto;
     flex-direction: column;
     margin-left: 45px;
     margin-bottom: 72px;
+    
 }
 
 .p-soc-media {
