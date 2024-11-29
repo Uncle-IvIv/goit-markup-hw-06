@@ -109,6 +109,70 @@ margin: 0 auto;
   
 }
 
+.mobile-op-menu-close {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+ 
+
+}
+.mob-m-o-n-studio-p {
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: #4d5ae5;
+        margin-left: 0;
+        margin-top: 72px;
+        margin-bottom: 40px;
+}
+.mob-m-o-n-portfolio-p {
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        margin-left: 0;
+        margin-bottom: 40px;
+}
+.mob-m-o-n-contact-p {
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        margin-left: 0;
+}
+.mobile-menu-op-add-div {
+    padding-bottom: 48px;
+}
+.mob-adress-tel {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+    margin-bottom: 24px;
+}
+.mob-adress-email {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+      
+}
+
+.mob-social-media-div {
+      padding: 0;
+}
+      
+
 @media only screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
@@ -267,7 +331,10 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    margin: 0 auto 72px;
+    margin: 52px auto 72px;
+    padding: auto 52px;
+    width: 216px;
+    height: 160px;
 
 }
 
@@ -276,15 +343,16 @@ margin: 0 auto;
         font-size: 56px;
         line-height: 107%;
         margin: 0 auto 36px;
-        ;
-        width: 600px;
+        padding: 136px o;;
+        width: 496px;
     }
 }
 
 @media only screen and (min-width: 1158px) {
     .hg-styl {
         margin: 0 auto 48px;
-    }
+        padding: auto 472px;
+         }
 }
 
 .button {
