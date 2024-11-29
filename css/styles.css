@@ -160,19 +160,19 @@ margin: 0 auto;
 }
 .mob-adress-email {
     font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: var(--slate);
-      
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
 .mob-social-media-div {
-      padding: 0;
+    padding: 0;
+    width: 320px;
 }
-      
 
+   
 @media only screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
