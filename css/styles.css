@@ -221,9 +221,6 @@ button {
   .nav-punkt-st:hover {
     color: #404bbf;
   }
-  .nav-punkt-st: focus;
-  .ul-adress-box: hover;
-  .ul-adress-box: focus;
   .nav-punkt-st.current {
     color: #404bbf;
   }
@@ -359,14 +356,6 @@ button {
   text-align: center;
   line-height: 111%;
 }
-
-margin-bottom: 72px;
-width: 216px;
-height: 160px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0 52px;
 
 @media only screen and (min-width: 768px) {
   .hg-styl {
@@ -688,12 +677,6 @@ padding: 0 52px;
   }
 }
 
-.icon-dir-mov {
-}
-@media only screen and (min-width: 1168px) {
-  .icon-dir-mov {
-  }
-}
 .li-one-two {
   width: calc((100% - 72px) / 4);
 }
