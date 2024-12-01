@@ -342,8 +342,8 @@ button {
 }
 @media only screen and (min-width: 1168px) {
   .main-styl {
-    width: 1440px;
-    height: 600px;
+    width: 1168px;
+    height: 500px;
     background-size: 100%;
   }
 }
@@ -351,7 +351,6 @@ button {
 .hg-cont {
   margin: auto;
 }
-
 .hg-styl {
   color: #ffffff;
   font-weight: 700;
@@ -437,7 +436,7 @@ padding: 0 52px;
   display: none;
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1168px) {
   .str-icon {
     display: contents;
   }
@@ -453,6 +452,17 @@ padding: 0 52px;
   margin-top: 96px;
 }
 
+@media only screen and (min-width: 768px) {
+  .ht {
+    padding: 0;
+    align-items: normal;
+  }
+}
+@media only screen and (min-width: 1168px) {
+  .ht {
+    margin-top: 08px;
+  }
+}
 .ht-styl {
   font-weight: 700;
   font-size: 36px;
@@ -461,7 +471,16 @@ padding: 0 52px;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-left: ;
+}
+@media only screen and (min-width: 768px) {
+  .ht-styl {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1168px) {
+  .ht-styl {
+    margin-top: 0;
+  }
 }
 
 .p-section-one {
@@ -469,11 +488,20 @@ padding: 0 52px;
   letter-spacing: 0.02em;
   text-align: left;
   width: 288px;
+  height: 120px;
 }
 
 @media only screen and (min-width: 720px) {
   .p-section-one {
     display: block;
+    width: 356px;
+    height: 120px;
+  }
+}
+@media only screen and (min-width: 1168px) {
+  .p-section-one {
+    width: 264px;
+    height: 72px;
   }
 }
 
@@ -660,6 +688,12 @@ padding: 0 52px;
   }
 }
 
+.icon-dir-mov {
+}
+@media only screen and (min-width: 1168px) {
+  .icon-dir-mov {
+  }
+}
 .li-one-two {
   width: calc((100% - 72px) / 4);
 }
@@ -670,7 +704,7 @@ padding: 0 52px;
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1168px) {
   .li-one-two {
     width: calc((100% - 72px) / 4);
   }
@@ -709,13 +743,12 @@ padding: 0 52px;
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1168px) {
   .ul-three {
     flex-wrap: wrap;
     flex-direction: row;
-    width: 1440px;
+    width: 1168px;
     padding-left: 0;
-    padding-right: 328px;
   }
 }
 
@@ -743,7 +776,7 @@ padding: 0 52px;
   .ul-four {
     flex-wrap: wrap;
     flex-direction: row;
-    width: 1440px;
+    width: 1168px;
   }
 }
 
@@ -803,7 +836,7 @@ padding: 0 52px;
 
 @media only screen and (min-width: 1168px) {
   .con-foot-end {
-    width: 1440px;
+    width: 1168px;
   }
 }
 
