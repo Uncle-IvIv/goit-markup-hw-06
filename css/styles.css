@@ -506,6 +506,8 @@ margin-bottom: 72px;
   margin-top: 72px;
   width: 320px;
   height: 2232px;
+  display: flex;
+  justify-content: center;
 }
 
 .ht-our-time {
@@ -626,6 +628,12 @@ margin-bottom: 72px;
 .card-elev {
   position: relative;
   overflow: hidden;
+  width: 320px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 
 
 .par-card-elev {
@@ -752,6 +760,7 @@ margin-bottom: 72px;
 
 .container-our-portfolio {
  margin-top: 96px;
+ display: flex;
 }
 
 .ul-four {
@@ -779,10 +788,14 @@ margin-bottom: 72px;
 }
 
 .our-profile {
-  padding: 32px 16px;
+  
   border: 1px solid #e7e9fc;
   border-top: none;
+  width: 288px;
+  height: 120px;
 }
+padding: 32px 16px;
+
 
 .li-our-profile {
   width: 288px;
