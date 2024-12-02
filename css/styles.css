@@ -309,8 +309,9 @@ button {
   padding: 72px 52px;
   width: 320px;
   height: 432px;
-  margin: 0 auto;
-  background-color: #5d5e71;
+margin-bottom: 72px;
+  background-color: #5d5e71;g
+  opacity: 0.7;
   display: flex;
 }
 .main-styl::before {
@@ -355,6 +356,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 111%;
+  position: relative;
 }
 
 @media only screen and (min-width: 768px) {
@@ -442,7 +444,7 @@ button {
   align-items: center;
   width: 288px;
   height: 120px;
-  margin-top: 96px;
+  margin-top: 32px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -482,6 +484,7 @@ button {
   text-align: left;
   width: 288px;
   height: 120px;
+  
 }
 
 @media only screen and (min-width: 720px) {
@@ -500,7 +503,9 @@ button {
 
 .container-our-tem {
   background-color: #f4f4fd;
-  margin-top: 96px;
+  margin-top: 72px;
+  width: 320px;
+  height: 2232px;
 }
 
 .ht-our-time {
@@ -510,7 +515,8 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+margin-bottom: 72px;
+
 }
 
 .li-our-time-one {
@@ -519,6 +525,8 @@ button {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  width: 264px;
+  height: 428px;
   margin-bottom: 72px;
 }
 
@@ -546,6 +554,7 @@ button {
 
 .product-designer {
   padding: 32px 0;
+  margin-bottom: 72px;
 }
 
 .soc-icon {
@@ -617,9 +626,10 @@ button {
 .card-elev {
   position: relative;
   overflow: hidden;
-}
+
 
 .par-card-elev {
+  display: none;
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -716,9 +726,9 @@ button {
 
 .ul-three {
   display: flex;
-  gap: 24px;
   flex-direction: column;
   width: 264px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -727,6 +737,7 @@ button {
     flex-direction: row;
     width: 584px;
     margin: auto;
+    gap:24px
   }
 }
 
@@ -740,7 +751,7 @@ button {
 }
 
 .container-our-portfolio {
-  padding: 120px 0 120px 0;
+ margin-top: 96px;
 }
 
 .ul-four {
@@ -774,8 +785,10 @@ button {
 }
 
 .li-our-profile {
-  /*width: calc((100% - 48px) / 3); */
+  width: 288px;
+  height: 400px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 48px;
 }
 
 .li-our-profile:hover {
