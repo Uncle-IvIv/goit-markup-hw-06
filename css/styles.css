@@ -500,7 +500,7 @@ flex-direction: column;*/
 }
 @media only screen and (min-width: 1158px) {
   .aa-ab {
-    margin: 0 auto 48px;
+    margin: 116px auto 48px;
     width: 600px;
   }
 }
@@ -561,7 +561,6 @@ flex-direction: column;*/
 @media only screen and (min-width: 768px) {
   .ba-ac {
     width: 356px;
-
     margin-left: 0;
   }
 }
@@ -646,6 +645,13 @@ flex-direction: column;*/
     margin-top: 0;
   }
 }
+@media only screen and (min-width: 1158px) {
+  .ca-ab {
+    height: 780px;
+padding-top: 0;
+padding-bottom: 0;
+  }
+}
 .ca-ac {
   font-weight: 700;
   font-size: 36px;
@@ -666,6 +672,7 @@ margin-bottom: 72px;
 @media only screen and (min-width: 1158px) {
   .ca-ac {
     padding-top: 120px;
+    margin-bottom: 50px;
   }
 }
 .ca-ad {
@@ -701,6 +708,26 @@ margin-bottom: 72px;
 
 @media only screen and (min-width: 768px) {
   .ca-ae {
+    margin-right: 24px;
+    margin-top: 72px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .ca-ae {
+    margin-top: 0px;
+    margin-bottom: 28px;
+
+  }
+}
+.ca-aea {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+}
+@media only screen and (min-width: 768px) {
+  .ca-aea {
     height: 428px;
     margin-right: 24px;
     margin-top: 72px;
@@ -709,19 +736,10 @@ margin-bottom: 72px;
   }
 }
 @media only screen and (min-width: 1158px) {
-  .ca-ae {
-    height: 428px;
-    margin-right: 24px;
-    margin-top: 0px;
-    margin-bottom: 1px;
-    padding-bottom: 0;
+  .ca-aea {
+margin-bottom: 102px;
+
   }
-}
-.ca-aea {
-  background: #fff;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
 }
 .ca-af {
   display: flex;
@@ -932,48 +950,52 @@ margin-bottom: 72px;
 }
 .ea-aa {
   background: #2e2f42;
+padding: 96px 0;
+}
+@media only screen and (min-width: 768px) {
+  .ea-aa {
+ max-height: 456px;
+  }
 }
 @media only screen and (min-width: 1158px) {
   .ea-aa {
-    padding: 100px 0;
+    height: 312px;
+    flex-wrap: nowrap;
+    padding: 0 16px;
   }
 }
 @media only screen and (min-width: 768px) {
   .eaa-a {
-    max-width: 736px;
-    height: 456px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 92px 0 92px;
+    align-items: baseline;
+    padding: 0 104px;
   }
-  .ea-ac {
-    align-self: flex-start;
   }
-}
-@media only screen and (min-width: 1158px) {
-  .eaa-a {
-    max-width: 1158px;
-    height: 112px;
-    padding: 0;
+  @media only screen and (min-width: 1158px) {
+    .eaa-a {
+      flex-wrap: nowrap;
+      padding: 0 16px;
+    }
   }
-}
+ 
 .ea-ab {
-  padding-top: 108px;
-  padding-left: 1px;
-  padding-bottom: 72px;
+margin-bottom: 72px;
 }
 @media only screen and (min-width: 768px) {
   .ea-ab {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    margin-right: 120px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1158px) {
   .ea-ab {
-    padding: 0 120px 0 16px;
+
     display: flex;
+    flex-direction: column;
     align-items: baseline;
+    padding-top: 100px;
+    margin-right: 120p0;
   }
 }
 .ea-ac {
@@ -986,6 +1008,13 @@ margin-bottom: 72px;
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ea-ac {
+align-self: flex-start;
+justify-content: flex-start;
+  }
 }
 .ea-ad {
   color: #f4f4fd;
@@ -1008,13 +1037,16 @@ margin-bottom: 72px;
 
 @media only screen and (min-width: 768px) {
   .eab-aa {
-    margin-top: 96px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 24px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .eab-aa {
     margin-top: 0;
     padding-right: 80px;
+    margin-left: 0;
   }
 }
 .ea-ag {
@@ -1068,12 +1100,19 @@ margin-bottom: 72px;
   gap: 24px;
 }
 @media only screen and (min-width: 768px) {
+  .ea-ak {
+    margin-right: 24px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .ea-ak {
+margin-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
   .eaa-aj {
     display: flex;
     flex-wrap: nowrap;
-  }
-  .ea-ak {
-    margin-right: 24px;
   }
 }
 .ea-aj {
@@ -1115,11 +1154,6 @@ margin-bottom: 72px;
     width: 264px;
   }
 }
-.ea-af {
-  padding-top: 32px;
-  padding-bottom: 84px;
-  text-align: center;
-}
 .ea-am {
   width: 165px;
   height: 40px;
@@ -1138,7 +1172,7 @@ margin-bottom: 72px;
 }
 @media only screen and (min-width: 768px) {
   .ea-am {
-    margin-left: 0;
+    margin-left: 35px;
   }
 }
 .ea-an {
