@@ -188,7 +188,9 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.adress-mobile {
+  margin-top: auto;
+}
 .mobile-ca-aa {
   margin-bottom: 48px;
 }
@@ -245,7 +247,7 @@ button {
   padding-top: 72px;
   display: flex;
   flex-direction: column;
-  max-height: 640px;
+  height: 100%;
 }
 .ul-box {
   display: flex;
