@@ -573,9 +573,9 @@ flex-direction: column;*/
 @media only screen and (min-width: 768px) {
   .ba-ac {
     width: calc(
-    100%     /   2
+    (100% - 32px)     /   2
   );
-    margin-left: 0;
+    margin-left: 16px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -639,6 +639,7 @@ flex-direction: column;*/
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: start;
+
 }
 
 @media only screen and (min-width: 768px) {
