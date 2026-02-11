@@ -92,7 +92,7 @@ button {
 }
 .mobile-button {
   background: #fff;
-}
+  }
 
 .nav-ul {
   display: none;
@@ -105,23 +105,24 @@ button {
 /* Hero*/
 
 .hero {
-    min-width: 320px;
-    background-color: #4de54d;
-    padding: 72px 0;
+  min-width: 320px;
+  background-color: #4de54d;
+  padding: 72px 0;
 }
 .hero-container {
-      display: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
 }
 .hero-tekst {
-margin: 0 auto 72px auto;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+  max-width: 216px;
+  margin: 0 auto 72px auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 .hero-button {
   border-radius: 4px;
@@ -134,4 +135,43 @@ color: #fff;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  }
+  .hero-button:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #404bbf;
+  }
+
+/*Direct*/
+
+.directions-icon {
+  display: none;
+}
+
+.directions {
+  margin: 96px 0;
+}
+
+.directions-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  background-color: #fff;
+}
+
+.directions-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.directions-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
