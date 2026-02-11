@@ -92,7 +92,7 @@ button {
 }
 .mobile-button {
   background: #fff;
-  }
+}
 
 .nav-ul {
   display: none;
@@ -126,6 +126,7 @@ button {
 }
 .hero-button {
   border-radius: 4px;
+  border: none;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -135,11 +136,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  }
-  .hero-button:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #404bbf;
-  }
+}
+.hero-button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
 
 /*Direct*/
 
@@ -148,7 +149,7 @@ background: #404bbf;
 }
 
 .directions {
-  margin: 96px 0;
+  padding: 96px 0;
 }
 
 .directions-ul {
@@ -174,4 +175,79 @@ background: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/*Team*/
+
+.team {
+  padding: 96px 0;
+  background: #f4f4fd;
+}
+
+.team-our {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.team-ul-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.team-div {
+  padding: 32px 0;
+}
+
+.team-surname {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.team-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  margin-bottom: 8px;
+}
+
+.team-social {
+  display: flex;
+  gap: 24px;
+}
+
+.team-social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: #f4f4fd;
 }
