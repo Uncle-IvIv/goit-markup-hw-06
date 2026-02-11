@@ -1,0 +1,24 @@
+{
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
+
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 80,
+  "useTabs": false
+}
+{
+  "printWidth": 100,           // Максимальная длина строки
+  "tabWidth": 2,               // Размер таба в пробелах
+  "useTabs": false,            // Использовать пробелы вместо табов
+  "semi": true,                // Добавлять точку с запятой
+  "singleQuote": true,         // Использовать одинарные кавычки
+  "trailingComma": "all",      // Запятая в конце списков и объектов
+  "bracketSpacing": true,      // Пробелы внутри фигурных скобок
+  "arrowParens": "always"      // Всегда оборачивать аргументы стрелочных функций в скобки
+}
