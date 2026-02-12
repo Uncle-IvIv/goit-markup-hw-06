@@ -200,9 +200,16 @@ button {
 /* Hero*/
 
 .hero {
-  min-width: 320px;
-  background-color: #4de54d;
-  padding: 72px 0;
+  max-width: 100%;
+  height: auto;
+  background-color: #2e2f42;
+
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/Office-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-container {
   display: flex;
@@ -218,6 +225,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 72px;
 }
 .hero-button {
   border-radius: 4px;
@@ -231,6 +239,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  margin-bottom: 72px;
 }
 .hero-button:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
