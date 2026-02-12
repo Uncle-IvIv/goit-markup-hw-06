@@ -36,13 +36,73 @@
             </li>
           </ul>
         </nav>
-        <button class="mobile-button" type="button" data-mobil-open="">
+        <button class="mobile-button" type="button" data-menu-open="">
             <svg class="button-menu" width="24" height="24">
               <use href="./images/icons.svg#icon-solid"></use>
             </svg>
         </button>
-        
+                </div>
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu-container container">
+          <button class="modal-close-btn" type="button" data-menu-close>
+            <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            
+            <ul class="nav-ul-mobile">
+            <li class="nav-ul-li">
+              <a class="nav-ul-link current" href="index.html">Studio</a>
+            </li>
+            <li class="nav-ul-li">
+              <a class="nav-ul-link" href="index.html">Portfolio</a>
+            </li>
+            <li class="nav-ul-li">
+              <a class="nav-ul-link" href="index.html">Contacts</a>
+            </li>
+          </ul></nav>
+          <address>Adress</address>
+          <ui class="team-social">
+            <li>
+                    <a
+                      class="team-social-link"
+                      href="./images/icons.svg#icon-instagram">
+                      <svg class="team-social-color" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="team-social-link"
+                      href="./images/icons.svg#icon-twitter">
+                      <svg class="team-social-color" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="team-social-link"
+                      href="./images/icons.svg#icon-facebook">
+                      <svg class="team-social-color" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="team-social-link"
+                      href="./images/icons.svg#icon-linkedin">
+                      <svg class="team-social-color" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+          </ui>
         </div>
+      </div>
         <address class="nav-adress">
           <ul class="adress-ul">
             <li>
@@ -506,7 +566,7 @@
 
     <!-- Modal windows -->
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop container" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="close-icon" width="8" height="8">
@@ -573,5 +633,6 @@
       </div>
       
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
