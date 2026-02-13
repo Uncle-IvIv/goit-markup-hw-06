@@ -261,6 +261,29 @@ button {
   background-size: cover;
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        url("../images/Hero/Office-dsk@1x.jpg") 1x,
+        url("../images/Hero/Office-dsk@2x.jpg") 2x
+      );
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        url("../images/Hero/Office-desk@1x.jpg") 1x,
+        url("../images/Hero/Office-desk@2x.jpg") 2x
+      );
+    background-size: cover;
+  }
+}
+
 .hero-container {
   display: flex;
   align-items: center;
@@ -276,6 +299,18 @@ button {
   text-align: center;
   color: #fff;
   padding-top: 72px;
+}
+@media screen and (min-width: 768px) {
+  .hero-tekst {
+    max-width: 496px;
+    margin: 0 auto 36px auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+  }
 }
 .hero-button {
   border-radius: 4px;
@@ -313,6 +348,18 @@ button {
   background-color: #fff;
 }
 
+@media screen and (min-width: 768px) {
+  .directions-ul {
+    flex-direction: row;
+  }
+  .directions-li {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    width: 356px;
+  }
+}
 .directions-h {
   font-weight: 700;
   font-size: 36px;
