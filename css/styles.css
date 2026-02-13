@@ -408,6 +408,19 @@ button {
   padding: 0 12px;
 }
 
+@media screen and (min-width: 768px) {
+  .team-ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  .team-ul-li {
+    margin-bottom: 72px;
+    width: 264px;
+  }
+}
+
 .team-ul-li {
   display: flex;
   flex-direction: column;
@@ -511,6 +524,19 @@ button {
 
 .portfolio-li-pone {
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  .portfolio-li {
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 72px;
+  }
 }
 
 /* Footer */
