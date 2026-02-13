@@ -351,15 +351,21 @@ button {
 @media screen and (min-width: 768px) {
   .directions-ul {
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
   }
   .directions-li {
+    width: calc((100% - 16px) / 2);
+    margin-bottom: 72px;
+    gap: 24px;
+  }
+  .directions-h {
     display: flex;
-    flex-direction: column;
     align-items: start;
-    gap: 8px;
-    width: 356px;
   }
 }
+
 .directions-h {
   font-weight: 700;
   font-size: 36px;
