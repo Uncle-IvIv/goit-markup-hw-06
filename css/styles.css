@@ -237,7 +237,17 @@ button {
 }
 
 .adress-color {
-  color: #434455;
+}
+@media screen and (min-width: 768px) {
+  .adress-link {
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #434455;
+  }
+  .adress-ul {
+    gap: 12px;
+  }
 }
 
 /* Hero*/
@@ -622,6 +632,35 @@ button {
   gap: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-all {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 108px;
+    padding-right: 164px;
+  }
+  .footer-text {
+    margin-bottom: 72px;
+  }
+  .footer-logo {
+    justify-content: start;
+  }
+  .subscripe-p {
+    display: flex;
+    justify-content: start;
+  }
+  .footer-subscribe-input {
+    width: 264px;
+  }
+  .footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+}
+
 /*Modal*/
 
 .backdrop {
@@ -776,4 +815,15 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 408px;
+  }
 }
