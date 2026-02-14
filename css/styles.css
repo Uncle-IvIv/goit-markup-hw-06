@@ -579,14 +579,16 @@ button {
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/* .portfolio-overlay {
-  display: flex;
-  justify-content: center;
+/* 
 } */
 
 .overlay {
   display: none;
 }
+
+
+
+
 
 .portfolio-div-name {
   padding: 32px 0 32px 16px;
@@ -619,7 +621,28 @@ button {
   }
   
 }
-
+@media only screen and (min-width: 1158px) {
+ .portfolio-overlay {
+  position: relative;
+  overflow: hidden;
+ }
+ .overlay {
+  display: flex;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #3f51b5;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+  padding: 40px 32px 164px;
+}
+ }
 /* Footer */
 
 .footer-page {
