@@ -178,7 +178,7 @@ button {
 .nav-ul-mobile {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 40px;
   align-items: start;
 }
 /*End Mobili menu*/
@@ -273,6 +273,9 @@ button {
   background-position: center;
   max-width: 100%;
   height: auto;
+}
+
+.hero-container {
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(
@@ -722,6 +725,10 @@ button {
   .footer-subscribe-form {
     display: flex;
     gap: 24px;
+  }
+  .footer-subscribe-btn {
+    display: inline;
+    margin-left: 24px;
   }
 }
 
