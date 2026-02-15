@@ -243,8 +243,6 @@ button {
   color: #4d5ae5;
 }
 
-.adress-color {
-}
 @media screen and (min-width: 768px) {
   .adress-link {
     font-size: 12px;
@@ -260,8 +258,6 @@ button {
 /* Hero*/
 
 .hero {
-  max-width: 100%;
-  height: auto;
   background-color: #2e2f42;
   background-repeat: no-repeat;
   background-position: center;
@@ -269,12 +265,9 @@ button {
 }
 
 .hero-container {
-  /* background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    image-set(
-      url("../images/Hero/Office-mob@1x.jpg") 1x,
-      url("../images/Hero/Office-mob@2x.jpg") 2x
-    ); */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -318,27 +311,6 @@ button {
   }
 }
 
-@media only screen and (min-width: 1158px) @media screen and (min-width: 768px) {
-  .hero {
-  }
-}
-@media screen and (min-width: 1200px) {
-  .hero {
-    background-image:
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      image-set(
-        url("../images/Hero/Office-desk@1x.jpg") 1x,
-        url("../images/Hero/Office-desk@2x.jpg") 2x
-      );
-    background-size: cover;
-  }
-}
-
-.hero-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 .hero-tekst {
   max-width: 216px;
   margin: 0 auto 72px auto;
@@ -586,10 +558,6 @@ button {
   display: none;
 }
 
-
-
-
-
 .portfolio-div-name {
   padding: 32px 0 32px 16px;
 }
@@ -606,7 +574,6 @@ button {
     justify-content: center;
   }
   .portfolio-li {
-    width: calc((100% - 24px) / 2);
     margin-bottom: 72px;
   }
 }
@@ -616,33 +583,33 @@ button {
     /* flex-wrap: nowrap; */
     gap: 48px 24px;
   }
-  .portfolio-li {
-    width: calc((100% - 24px) / 4);
+  .portfolio-overlay {
+    position: relative;
+    overflow: hidden;
   }
-  
+  .overlay {
+    display: flex;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #3f51b5;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+    padding: 40px 32px 164px;
+  }
+  .portfolio-li:hover {
+    .overlay {
+      transform: translateY(0);
+    }
+  }
 }
-@media only screen and (min-width: 1158px) {
- .portfolio-overlay {
-  position: relative;
-  overflow: hidden;
- }
- .overlay {
-  display: flex;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  background-color: #3f51b5;
-  color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
-  padding: 40px 32px 164px;
-}
- }
+
 /* Footer */
 
 .footer-page {
@@ -752,6 +719,17 @@ button {
   .footer-subscribe-form {
     display: flex;
     gap: 24px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-page {
+    padding: 100px 0;
+  }
+  .footer-all {
+    flex-wrap: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
