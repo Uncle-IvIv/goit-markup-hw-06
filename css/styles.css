@@ -89,6 +89,22 @@ button {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  height: 56px;
+  display: flex;
+
+  /* vertical-align: top; */
+}
+
+@media screen and (min-width: 768px) {
+  .header-box {
+    height: 72px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .header-box {
+    display: block;
+  }
 }
 
 .header-div {
@@ -99,7 +115,7 @@ button {
 
 .nav-header {
   display: flex;
-  align-items: center;
+  margin-right: 120px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -111,7 +127,7 @@ button {
   color: #4d5ae5;
 }
 .nav-logo {
-  padding: 16px 0;
+  padding: 24px 0;
   margin-right: 120px;
 }
 .logo-studio {
@@ -124,7 +140,6 @@ button {
   color: #2e2f42;
 }
 .mobile-button {
-  padding: 0;
   border: none;
   background-color: transparent;
 }
@@ -179,8 +194,24 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  align-items: start;
 }
+
+.nav-ul-link-mob {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.adress-ul-mob {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
 /*End Mobili menu*/
 
 .nav-ul {
@@ -220,6 +251,23 @@ button {
   color: #404bbf;
 }
 
+.nav-ul-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+  margin-bottom: -27px;
+}
+
+.nav-ul-link.current {
+  position: relative;
+  color: #404bbf;
+}
+
 .adress-ul {
   font-style: normal;
   display: flex;
@@ -252,6 +300,18 @@ button {
   }
   .adress-ul {
     gap: 12px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .adress-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .adress-ul {
+    gap: 40px;
   }
 }
 
