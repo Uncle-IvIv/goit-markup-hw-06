@@ -349,6 +349,10 @@ button {
   color: #4d5ae5;
 }
 
+.team-social.team-social-dop {
+  gap: 40px;
+}
+
 /*End Mobili menu*/
 
 /* Hero*/
@@ -481,7 +485,16 @@ button {
   gap: 72px;
   background-color: #fff;
 }
-
+.directions-h {
+  align-items: start;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 @media screen and (min-width: 768px) {
   .directions-ul {
     flex-direction: row;
@@ -490,13 +503,21 @@ button {
     justify-content: space-between;
   }
   .directions-li {
-    width: calc((100% - 16px) / 2);
+    width: calc((100% - 24px) / 2);
     margin-bottom: 72px;
-    gap: 24px;
   }
   .directions-h {
     display: flex;
-    align-items: start;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .directions-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 }
 
@@ -505,16 +526,6 @@ button {
     flex-wrap: nowrap;
     gap: 24px;
   }
-}
-
-.directions-h {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .directions-p {
@@ -827,12 +838,12 @@ button {
     width: 264px;
   }
   .footer-subscribe-form {
-    display: flex;
-    gap: 24px;
+    /* display: flex;
+    gap: 24px; */
   }
   .footer-subscribe-btn {
-    display: inline;
     margin-left: 24px;
+    display: inline-flex;
   }
 }
 
@@ -894,9 +905,12 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #e7e9fc;
-  border-color: rgba(0, 0, 0, 0.1); */
+  background-color: #e7e9fc;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .modal-close-btn:hover {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
