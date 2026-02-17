@@ -578,6 +578,12 @@ margin-right: auto;
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .team-ul {
+    flex-wrap: nowrap;
+  }
+}
+
 .team-ul-li {
   display: flex;
   flex-direction: column;
