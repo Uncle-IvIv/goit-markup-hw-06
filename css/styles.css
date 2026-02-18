@@ -707,10 +707,14 @@ button {
 
 @media screen and (min-width: 768px) {
   .portfolio-ul {
+    /* column-count: 2; */
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
     justify-content: center;
+  }
+  .portfolio-li {
+    width: 356px;
   }
 }
 
@@ -1021,12 +1025,15 @@ button {
 .div-terms {
   margin-top: 16px;
   margin-bottom: 24px;
+  display: flex;
 }
 
 .div-terms-checkbox {
   border-radius: 2px;
   fill: #404bbf;
   border: 1px solid #404bbf;
+  margin-right: 8px;
+  width: 16px;
 }
 
 .label-terms {
