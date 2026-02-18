@@ -470,7 +470,13 @@ button {
 }
 
 .directions {
-  padding: 96px 0;
+  padding: 72px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .directions {
+    padding: 112px 0;
+  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -499,12 +505,11 @@ button {
   .directions-ul {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 72px 24px;
     justify-content: space-between;
   }
   .directions-li {
     width: calc((100% - 24px) / 2);
-    margin-bottom: 72px;
   }
 
   @media only screen and (min-width: 1158px) {
