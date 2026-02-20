@@ -680,7 +680,7 @@ button {
 .portfolio-ul {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 48px;
 }
 
 .portfolio-li {
@@ -916,6 +916,7 @@ button {
   pointer-events: auto;
 }
 .modal {
+  max-width: 288px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1075,6 +1076,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .modal {
+    max-width: 408px;
     position: fixed;
     top: 20px;
     left: 50%;
