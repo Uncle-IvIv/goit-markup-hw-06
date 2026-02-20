@@ -470,18 +470,12 @@ button {
 }
 
 .directions {
-  padding: 72px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .directions {
-    padding: 112px 0;
-  }
+  padding: 96px 0;
 }
 
 @media only screen and (min-width: 1158px) {
   .directions {
-    padding: 188px 0;
+    padding: 120px 0;
   }
 }
 
@@ -547,6 +541,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+@media only screen and (min-width: 1158px) {
+  .directions-p {
+    font-weight: 400;
+  }
 }
 
 /*Team*/
