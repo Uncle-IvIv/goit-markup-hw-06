@@ -778,6 +778,12 @@ button {
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .footer-all-div {
+    margin-bottom: 0;
+  }
+}
+
 .footer-logo {
   display: flex;
   justify-content: center;
