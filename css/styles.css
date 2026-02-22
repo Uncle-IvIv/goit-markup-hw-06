@@ -841,6 +841,10 @@ button {
   margin-bottom: 16px;
 }
 
+.footer-subscribe {
+  display: flex;
+}
+
 .footer-subscribe-input {
   width: 288px;
   height: 40px;
