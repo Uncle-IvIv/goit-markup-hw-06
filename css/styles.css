@@ -1094,7 +1094,7 @@ button {
   .modal {
     max-width: 408px;
     position: fixed;
-    top: 20px;
+    top: 96px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
