@@ -690,6 +690,12 @@ button {
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+@media only screen and (min-width: 1158px) {
+  .portfolio-li {
+    box-shadow: none;
+  }
+}
+
 /* 
 } */
 
